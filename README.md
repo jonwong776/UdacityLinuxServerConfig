@@ -13,7 +13,8 @@ OS Security Related:
 6. Provided "grader" user sudo access
 7. Forced key-pair authentication by turning off password authentication.
 8. Configured UFW to deny all incoming connections except SSH, HTTP, and NTP
-9. Configured local timezone to UTC
+9. Remote login for root was disabled
+10. Configured local timezone to UTC
 
 PostgreSQL Security Related:
 1. Created DB user "catalog"
